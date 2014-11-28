@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Cronómetro</title><meta charset="UTF-8">
+        <style type="text/css">
+        
+        body {  background-color: #3848D8}
+        h2,h3 {text-align: center;}
+        table,td {border:solid; border-width: 3px;border-color: red;border-radius: 5px;}
+        .cronometro {background-image: url('timer.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: fixed;
+        height: 160px;
+        }
+        </style>
+        <script type="text/javascript" src="zepto.min.js" > </script>
+        <script type="text/javascript" src="touch.js"></script>
+        <script type="text/javascript" src="https://googledrive.com/host/0B0hf5VxJSYHsSS03blBDRVpaSEU/script_cronometro_localstorage_gestures.js"></script>
+    </head>
+    <body id="todo">
+        <h2>Cronómetro</h2>
+        <div align="center">
+            <table>
+                <tr><td colspan="2" class="cronometro">
+                    
+                    <div >
+                        <h3>
+                        <span id="crono">
+                        
+                        </span></h3>
+                    </div>
+                </td></tr>
+                <tr>
+                    <td>
+                        <button type="button" id="cambiar" width="20%">Pulsar este botón o golpear la pantalla para ARRANCAR/PARAR</button>
+                        
+                    </td>
+                    <td>
+                    <button type="button" id="inicializar" width="20%">Pulsar este botón o arrastrar el dedo por la pantalla para INICIALIZAR</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <img src="mano.png" height="132" ></td>
+                </tr>
+            </table>
+        </div>
+        <div align="center">
+            <ul id="momentos_id">
+                
+            </ul>
+        </div>
+    </body>
+</html>

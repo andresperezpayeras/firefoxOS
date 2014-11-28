@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "name": "temporizador",
+  "description": "Temporizador con lista de momentos de parada",
+  "launch_path": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/index.html",
+  "icons": {
+    "512": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img-512.png",
+    "256": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img/img-256.png",
+    "128": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img/img-128.png",
+    "64": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img/img-64.png",
+    "48": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img/img-48.png",
+    "32": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img/img-32.png",
+    "22": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img/img-22.png",
+    "16": "/host/0B0hf5VxJSYHsdkktX0JKX0lQbWM/img/img/img-16.png"
+  },
+  "type": "web",
+  "developer": {
+    "name": "A.P.P.",
+    "url": "http://www.ejemplo.es"
+  },
+  "default_locale": "es"
+}
